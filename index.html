@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Hindari Rintangan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Game Hindari Rintangan</h1>
+    <canvas id="gameCanvas"></canvas>
+    <p id="score">Score: 0</p>
+    <button id="restart" style="display:none;">🔄 Restart</button>
+
+    <!-- Tombol Sentuh -->
+    <div class="controls">
+        <button id="left">⬅️</button>
+        <button id="up">⬆️</button>
+        <button id="down">⬇️</button>
+        <button id="right">➡️</button>
+    </div>
+
+    <audio id="gameOverSound" src="gameover.mp3"></audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
